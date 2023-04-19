@@ -31,14 +31,17 @@ public class RetoProgramacion2023 {
          PartidoTenis.partido(puntos);*/
          
          
-         
+         /*
          //Prueba generador de contraseñas
          
          GeneradorContrasenas.contrasena(8, false, false, false);
          GeneradorContrasenas.contrasena(9, true, false, false);
          GeneradorContrasenas.contrasena(9, true, true, false);
          GeneradorContrasenas.contrasena(16, true, true, true);
-        
+        */
+         
+         //Prueba PRIMO, FIBONACCI Y PAR
+         PrimoFibonachiPar.solucion(2);
         
      }
     
