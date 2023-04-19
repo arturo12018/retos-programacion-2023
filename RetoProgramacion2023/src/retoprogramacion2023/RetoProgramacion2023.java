@@ -25,9 +25,21 @@ public class RetoProgramacion2023 {
          
          //Prueba partido de tennis
          
+         /*
          //String[] puntos={"P1","P1","P2","P1","P2","P2","P1","P2","P1","P2","P1","P1"};
          String[] puntos={"P2","P1","P1","P2","P1","P2","P2","P1","P2","P1","P2","P2"};
-         PartidoTenis.partido(puntos);
+         PartidoTenis.partido(puntos);*/
+         
+         
+         
+         //Prueba generador de contraseñas
+         
+         GeneradorContrasenas.contrasena(8, false, false, false);
+         GeneradorContrasenas.contrasena(9, true, false, false);
+         GeneradorContrasenas.contrasena(9, true, true, false);
+         GeneradorContrasenas.contrasena(16, true, true, true);
+        
+        
      }
     
 }
