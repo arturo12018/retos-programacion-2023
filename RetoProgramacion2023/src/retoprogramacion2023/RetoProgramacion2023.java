@@ -59,11 +59,16 @@ public class RetoProgramacion2023 {
          PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ2);
          */
          
+         //Prueba El sombrero seleccionador
+         SombreroSeleccionador.seleccionador();
+         
+         
+         /*
          //Prueba Generador pseudoaleatorio del 0-100
          GeneradorPseudoalatorio.numeroAleatorio();
+         */
 
-
-
+         
 
 
      }
