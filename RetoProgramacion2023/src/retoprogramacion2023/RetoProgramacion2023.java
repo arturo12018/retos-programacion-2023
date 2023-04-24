@@ -40,9 +40,21 @@ public class RetoProgramacion2023 {
          GeneradorContrasenas.contrasena(16, true, true, true);
         */
          
+         
+         /*
          //Prueba PRIMO, FIBONACCI Y PAR
          PrimoFibonachiPar.solucion(2);
-        
+        */
+         
+         //Prueba Piedra, Papel, Tijera, Lagarto, Spock
+         //valores: "piedra","lagarto","tijera","papel","spock"
+         
+         String[][] juegosEmpate={{"tijera","lagarto"},{"piedra","spock"},{"tijera","papel"},{"lagarto","piedra"}};
+         String[][] juegosGanaJ1={{"tijera","lagarto"},{"piedra","spock"},{"tijera","papel"}};
+         String[][] juegosGanaJ2={{"tijera","lagarto"},{"piedra","spock"},{"papel","tijera"}};
+         PiedraPapelTijeraLagartoSpock.juegos(juegosEmpate);
+         PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ1);
+         PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ2);
      }
     
 }
