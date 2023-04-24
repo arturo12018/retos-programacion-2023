@@ -46,6 +46,8 @@ public class RetoProgramacion2023 {
          PrimoFibonachiPar.solucion(2);
         */
          
+         
+         /*
          //Prueba Piedra, Papel, Tijera, Lagarto, Spock
          //valores: "piedra","lagarto","tijera","papel","spock"
          
@@ -55,6 +57,15 @@ public class RetoProgramacion2023 {
          PiedraPapelTijeraLagartoSpock.juegos(juegosEmpate);
          PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ1);
          PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ2);
+         */
+         
+         //Prueba Generador pseudoaleatorio del 0-100
+         GeneradorPseudoalatorio.numeroAleatorio();
+
+
+
+
+
      }
     
 }
