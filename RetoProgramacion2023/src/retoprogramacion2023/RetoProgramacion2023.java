@@ -59,15 +59,22 @@ public class RetoProgramacion2023 {
          PiedraPapelTijeraLagartoSpock.juegos(juegosGanaJ2);
          */
          
+         /*
          //Prueba El sombrero seleccionador
          SombreroSeleccionador.seleccionador();
-         
+         */
          
          /*
          //Prueba Generador pseudoaleatorio del 0-100
          GeneradorPseudoalatorio.numeroAleatorio();
          */
 
+         //Prueba Heterograma, isograma y pangrama
+         System.out.println(HeterogramaIsogramaPangrama.heterograma("hiperblanduzcos"));
+         System.out.println(HeterogramaIsogramaPangrama.isograma("anna"));
+         System.out.println(HeterogramaIsogramaPangrama.pangrama("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
+         
+           
          
 
 
