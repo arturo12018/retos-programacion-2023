@@ -76,9 +76,15 @@ public class RetoProgramacion2023 {
          System.out.println(HeterogramaIsogramaPangrama.pangrama("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
          */
          
+         
+         /*
          //Prueba api
          ConexionApi.llamar();
-           
+          */
+         
+         
+         //Prueba parametros URL
+         URLParametros.datos("https://retosdeprogramacion.com?year=2023&challenge=0&languaje=python&paso=holaMundo");
          
 
 
