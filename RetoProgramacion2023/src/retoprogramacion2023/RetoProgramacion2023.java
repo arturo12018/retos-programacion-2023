@@ -69,11 +69,15 @@ public class RetoProgramacion2023 {
          GeneradorPseudoalatorio.numeroAleatorio();
          */
 
+         /*
          //Prueba Heterograma, isograma y pangrama
          System.out.println(HeterogramaIsogramaPangrama.heterograma("hiperblanduzcos"));
          System.out.println(HeterogramaIsogramaPangrama.isograma("anna"));
          System.out.println(HeterogramaIsogramaPangrama.pangrama("Benjamín pidió una bebida de kiwi y fresa. Noé, sin vergüenza, la más exquisita champaña del menú."));
+         */
          
+         //Prueba api
+         ConexionApi.llamar();
            
          
 
