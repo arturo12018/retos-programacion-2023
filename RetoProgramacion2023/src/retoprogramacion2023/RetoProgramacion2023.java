@@ -83,9 +83,14 @@ public class RetoProgramacion2023 {
           */
          
          
+         /*
          //Prueba parametros URL
          URLParametros.datos("https://retosdeprogramacion.com?year=2023&challenge=0&languaje=python&paso=holaMundo");
+         */
          
+         
+         //Prueba Viernes 13
+         System.out.println(Viernes13.verificar(2023,10));
 
 
      }
