@@ -89,10 +89,14 @@ public class RetoProgramacion2023 {
          */
          
          
+         /*
+         
          //Prueba Viernes 13
          System.out.println(Viernes13.verificar(2023,10));
-
-
+          */
+         
+         //Prueba Octal y Hexadecimal
+         OctalHexadecimal.valores(650);
      }
     
 }
