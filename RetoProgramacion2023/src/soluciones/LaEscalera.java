@@ -29,43 +29,94 @@ package soluciones;
 
 public class LaEscalera {
     public static void mostrar(int numero){
-        String cadeAuxilar="";
-        numero-=1; 
-        
-        
-        for(int y=0;y<=(numero*2);y++){
-            if(y==numero*2)
-            {
-                cadeAuxilar="  "+cadeAuxilar;
-                cadeAuxilar+="_";
-            }
-            else
-            {
-                cadeAuxilar+=" ";
-            }    
+       
+        if(numero==0){
+            System.out.println("__");
         }
-        System.out.println(cadeAuxilar);
-            
+        
+        else if(numero>0){
+            String cadeAuxilar="";
+            numero-=1; 
         
         
-        for(int x=numero;x>=0;x--){
-            cadeAuxilar="";
-            
-            for(int y=x;y>=0;y--){
-                if(y==0){
-                    cadeAuxilar+=""+cadeAuxilar;
-                    cadeAuxilar+="_|";
+            for(int y=0;y<=(numero*2);y++){
+                if(y==numero*2)
+                {
+                    cadeAuxilar="  "+cadeAuxilar;
+                    cadeAuxilar+="_";
                 }
-                else{
+                else
+                {
                     cadeAuxilar+=" ";
-                }
-                
+                }    
             }
             System.out.println(cadeAuxilar);
-            
+
+
+
+            for(int x=numero;x>=0;x--){
+                cadeAuxilar="";
+
+                for(int y=x;y>=0;y--){
+                    if(y==0){
+                        cadeAuxilar+=""+cadeAuxilar;
+                        cadeAuxilar+="_|";
+                    }
+                    else{
+                        cadeAuxilar+=" ";
+                    }
+
+                }
+                System.out.println(cadeAuxilar);
+
+                }
+
+            }
+        
+        
+        else if(numero<0){
+                    String cadeAuxilar="";
+                    numero=numero*-1;
+                    
+                    
+                    
+                    System.out.println("_");
+                    
+                    
+
+                    for(int x=1;x<=numero;x++)
+                        {
+                          cadeAuxilar="";
+                          for(int y=1;y<=x;y++){
+                              if(y==x){
+                                    cadeAuxilar+=" "+cadeAuxilar;
+                                    cadeAuxilar+="|_";
+                                }
+                                else{
+                                    cadeAuxilar+=" ";
+                                }
+                          }
+                          System.out.println(cadeAuxilar);
+                        }
+                        
+                    
+                }
         }
-       
-    }
-    
-    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 }
+        
+    
+    
+

@@ -108,7 +108,7 @@ public class RetoProgramacion2023 {
          */
          
          //Prueba escalera
-         LaEscalera.mostrar(15);
+         LaEscalera.mostrar(0);
      }
     
 }
