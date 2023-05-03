@@ -95,8 +95,20 @@ public class RetoProgramacion2023 {
          System.out.println(Viernes13.verificar(2023,10));
           */
          
+         
+         /*
          //Prueba Octal y Hexadecimal
          OctalHexadecimal.valores(650);
+         */
+         
+         
+         /*
+         //Prueba Aurebesh//Sin terminar
+         LenguajeAurebesh.españolAurebesh("Hola Mundo");
+         */
+         
+         //Prueba escalera
+         LaEscalera.mostrar(15);
      }
     
 }
